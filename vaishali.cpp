@@ -105,7 +105,7 @@ void faculty_Queue(int no_of_process) {
     puts("\n\t\t\t********************************************");
     puts("\t\t\t*****   ROUND ROBIN ALGORITHM OUTPUT   *****");
     puts("\t\t\t********************************************\n");
-    printf("\n|\t  Process Name  |\tArrival Time  |\tBurst Time |\tCompletion Time  |\n");
+    printf("\n|\tProcess Name\t  |\tArrival Time\t  |\tBurst Time\t |\tCompletion Time  \t|\n");
 
     for(count = 0; count < no_of_process; count++){
         waiting_time = faculty_Process[count].completion_time - faculty_Process[count].burst_time - faculty_Process[count].arrival_time;
